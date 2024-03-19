@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+.body2{
+    background-color: rgba(204, 204, 204,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	
+    
+}
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 650px;
+    border-radius: 10px;
+}
+.box{
+    
+    width: 400px;
+    height: 445px; 
+    justify-content: space-between;
+    
+}
+.text{
+    padding: 15px 0;
+}
+.text h2{
+    font-size: 30px;
+    color: #555;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.username{
+    padding: 30px 0;
+}
+.password{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.account{
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+.account h3{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.account a{
+	text-decoration: none;
+	color: #134978;
+	font-size: 14px;
+	font-weight: 500;
+}
+.field h4{
+    font-size: 13px;
+    padding-bottom: 20px;
+    color: #555;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.field input{
+    width: 100%;
+    padding: 0 20px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 2px; 
+    outline: none;
+    border: 2px solid #e6e6e6;
+}
+.field input:focus{
+    border: 1px solid #134978;
+    transition: all 0.4s;
+}
+.btn button{
+    font-size: 16px;
+    padding: 0 20px;
+    height: 55px;
+    min-width:150px;
+    border-radius: 27px;
+    background-color: rgba(0, 0, 0,0.8);
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.btn button:hover{
+    background-color: #134978;
+    transition: all 0.4s;
+    cursor: pointer;
+}

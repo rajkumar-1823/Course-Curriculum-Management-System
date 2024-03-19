@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* tables */
+.patient-record{
+    margin-top: 20px;
+    background-color: red;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+}
+.record-txt{
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    /* border-radius: 5px 0 5px 0; */
+    background-color: rgba(235, 237, 238,0.5);
+    
+}
+.record-txt h3{
+    padding: 10px;
+    color: #555;
+}
+
+.tables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 10px auto;
+    background-color: #fff;
+}
+.tables table{
+    width: 100%;
+    text-align: center;
+}
+
+.tables table thead th{
+    font-size: 16px;
+    color: rgba(85, 85, 85,0.8);
+}
+.tables table td{
+    font-size: 16px;
+    color: rgba(85, 85, 85);
+}
+.tables table,th,td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.tables .btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tables .btn button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #134978;
+    cursor: pointer;
+}
+.tables .btn .Delete{
+    background-color: darkred;
+}
+.tables .btn .Update{
+    background-color: rgb(71, 188, 143);
+}

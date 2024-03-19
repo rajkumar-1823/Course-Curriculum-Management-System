@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "id": "16b3",
+      "username": "admin",
+      "email": "ff@g.com",
+      "password": "123"
+    }
+  ],
+  "admin": [
+    {
+      "id": "e038",
+      "name": "https://www.tutorjoes.in/img/CPP.jpg",
+      "title": "CPP",
+      "des": "Cpp is a core coursea"
+    },
+    {
+      "id": "2404",
+      "name": "https://www.tutorjoes.in/img/dart.jpg",
+      "title": "Dart",
+      "des": "Dart is good for programming"
+    }
+  ]
+}

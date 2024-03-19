@@ -1,0 +1,25 @@
+.btn-cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.btn-cont .buts{
+    padding: 20px 30px;
+}
+.buts a{
+    font-size: 20px;
+    padding: 20px 30px;
+}
+.buts a{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bt1 a{
+    background-color: #5FBDFF;
+}
+.bt2 a{
+    background-color: #65B741;
+}

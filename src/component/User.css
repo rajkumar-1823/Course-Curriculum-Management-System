@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-info{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.user-info h3{
+    padding: 5px;
+    font-size: 18px;
+}
+.user-info button{
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ccc;
+    color: darkblue;
+    border: none;
+}
+.container2 {
+    
+    padding: 15px;
+    background-color: #fff;
+}
+
+.products{
+    display: grid;
+    justify-content: space-evenly;
+    /* grid-template: repeat(3,auto)/repeat(3,auto); */
+    grid-template: repeat(auto-fill, minmax(100px, 1fr))/repeat(3,auto);
+    gap: 20px;  
+}
+
+.main-pr { 
+    width: auto;
+    background-color: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    text-align: left;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.main-pr h4 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-pr h2 {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+  
